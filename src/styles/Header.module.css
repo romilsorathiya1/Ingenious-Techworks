@@ -1,0 +1,188 @@
+/* Color Variables for this Component */
+.nav {
+  --theme-purple: #a74d81; /* Main Brand Color */
+  --theme-teal: #6db1c3;   /* Secondary Brand Color */
+  --text-color: #0f172a;
+  
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 15px 0; /* Adjusted padding for image logo */
+  background: rgba(255, 255, 255, 0.9); 
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Logo Wrapper */
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  z-index: 1001;
+  position: relative;
+}
+
+.logoImage {
+  object-fit: contain;
+  /* Ensures the logo scales nicely on mobile */
+  max-width: 60%;
+  height: auto; 
+}
+
+/* Desktop Navigation */
+.navLinks {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navLinks a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-color);
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: var(--theme-purple); /* Hover color matches logo purple */
+}
+
+/* Contact Button (Desktop) */
+.contactBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background: var(--theme-purple); /* Logo Purple Background */
+  color: white;
+  border: 1px solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  background: #8a3a68; /* Darker shade of purple */
+  box-shadow: 0 4px 15px rgba(167, 77, 129, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Mobile Toggle Button */
+.mobileMenuBtn {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 1001;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s;
+}
+
+.mobileMenuBtn:hover {
+  color: var(--theme-purple);
+}
+
+/* --- MOBILE MENU OVERLAY STYLES --- */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  /* 60% Height as requested */
+  height: 60vh; 
+  
+  /* Glassmorphism Background */
+  background-color: rgba(255, 255, 255, 0.9); 
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  z-index: 999; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Animation */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mobileMenu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mobileLinks {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.mobileLinks li a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.mobileLinks li a:hover {
+  color: var(--theme-purple);
+  letter-spacing: 1px;
+}
+
+/* Mobile Button inside Menu */
+.mobileContactBtn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 30px;
+  background: var(--theme-purple);
+  color: white !important; /* Force white text */
+  border-radius: 50px;
+  font-size: 1.1rem !important;
+  box-shadow: 0 5px 15px rgba(167, 77, 129, 0.2);
+}
+
+/* --- RESPONSIVE MEDIA QUERIES --- */
+@media (max-width: 900px) {
+  .navLinks { display: none; }
+  .contactBtn { display: none; }
+  .mobileMenuBtn { display: flex; }
+  
+  /* Adjust logo size for mobile */
+  .logoImage {
+    width: 140px; 
+    height: auto;
+  }
+}

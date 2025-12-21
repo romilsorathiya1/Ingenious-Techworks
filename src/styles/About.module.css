@@ -1,0 +1,166 @@
+/* src/app/about/about.module.css */
+
+/* Page Header */
+.pageHeader {
+  padding: 180px 0 100px;
+  text-align: center;
+  /* Updated to Logo Purple Gradient (RGB: 167, 77, 129) */
+  background: linear-gradient(180deg, rgba(167, 77, 129, 0.05) 0%, rgba(255,255,255,0) 100%);
+}
+
+.pageHeader h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  color: var(--text);
+}
+
+.pageHeader p {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .pageHeader h1 { font-size: 2.5rem; }
+}
+
+/* Story Section */
+.storyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.storyContent h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.storyContent p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.storyImg {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  height: 400px;
+}
+
+.storyImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mission & Vision */
+.mvGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.mvCard {
+  background: var(--bg-secondary);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.mvCard i {
+  font-size: 2rem;
+  color: var(--primary); /* Uses Global Purple */
+  margin-bottom: 20px;
+}
+
+.mvCard h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.mvCard p {
+  color: var(--text-muted);
+}
+
+@media (max-width: 900px) {
+  .storyGrid, .mvGrid { grid-template-columns: 1fr; }
+}
+
+/* Team Section */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.teamCard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.teamCard:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary); /* Purple Border on Hover */
+}
+
+.teamImg {
+  height: 280px;
+  width: 100%;
+  background: #e2e8f0;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.teamImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.teamCard:hover .teamImg img {
+  transform: scale(1.1);
+}
+
+.teamCard h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.teamCard span {
+  color: var(--primary); /* Purple Text */
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.teamSocials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.teamSocials a {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.teamSocials a:hover {
+  color: var(--primary); /* Purple Hover */
+}
