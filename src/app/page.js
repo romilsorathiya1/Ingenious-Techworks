@@ -217,7 +217,7 @@ export default function Home() {
             <div className={`${styles.priceCard} reveal hover-target`}>
               <h3>App Development</h3>
               <div className={styles.priceAmount}>
-              ₹ 14,999<span>/start</span>
+                ₹ 14,999<span>/start</span>
               </div>
               <ul className={styles.priceFeatures}>
                 <li><i className="fas fa-check"></i> Hybrid App (iOS/Android)</li>
@@ -271,7 +271,7 @@ export default function Home() {
               <div className={styles.blogContent}>
                 <h3>Native Apps vs. PWAs: Why 2025 is the Year to Switch</h3>
                 <p style={{ color: "var(--text-muted)", fontSize: "0.9rem" }}>
-                 Businesses are ditching expensive native apps for Progressive Web Apps. Discover how PWAs offer faster load times, offline access, and lower development costs.
+                  Businesses are ditching expensive native apps for Progressive Web Apps. Discover how PWAs offer faster load times, offline access, and lower development costs.
                 </p>
                 <br />
                 <Link href="/blogs/post2" className={styles.learnMore}>
