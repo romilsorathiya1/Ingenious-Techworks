@@ -1,0 +1,113 @@
+INGENIOUS TECHWORKS
+Official Services & Help Documentation
+
+
+Q: What is Ingenious Techworks?
+A: Ingenious Techworks is a technology services company providing web development, mobile app development, AI & ML solutions, and digital marketing services for businesses and individuals.
+
+Q: What types of clients do you work with?
+A: Ingenious Techworks works with startups, small businesses, enterprises, students, and individuals looking for reliable technology solutions.
+
+Q: What web development services do you offer?
+A: Ingenious Techworks offers website design and development, including static websites, dynamic websites, business websites, portfolios, and custom web applications.
+
+Q: Do you build responsive websites?
+A: Yes. All websites are designed to be responsive and compatible with mobile, tablet, and desktop devices.
+
+Q: What technologies do you use for web development?
+A: Web development projects may use HTML, CSS, JavaScript, PHP, Python, React, Node.js, and other modern frameworks depending on project requirements.
+
+Q: What mobile app development services do you provide?
+A: Ingenious Techworks develops Android applications, cross-platform mobile apps, and custom app solutions based on client needs.
+
+Q: Do you develop both Android and iOS apps?
+A: Primarily Android and cross-platform apps. iOS development availability depends on project scope and requirements.
+
+Q: What AI and ML services do you offer?
+A: Ingenious Techworks provides AI and ML solutions such as chatbots, recommendation systems, prediction models, automation tools, and data analysis solutions.
+
+Q: Can you build custom AI chatbots?
+A: Yes. Custom AI chatbots can be developed for websites, business automation, customer support, and internal systems.
+
+Q: Do you work on student AI/ML projects?
+A: Yes. Ingenious Techworks supports academic and student projects, including final-year projects, prototypes, and proof-of-concept solutions.
+
+Q: What social media services do you provide?
+A: Services include social media account handling, content planning, post scheduling, engagement management, and basic performance analysis.
+
+Q: Do you provide digital marketing services?
+A: Digital marketing services may include SEO optimization, online presence setup, and social media promotion depending on client requirements.
+
+Q: How does the project process work?
+A: The typical process includes requirement discussion, proposal and quotation, development, review, revisions, and final delivery.
+
+Q: How long does a project take?
+A: Project timelines depend on the complexity and scope. Small projects may take a few days, while larger projects may take several weeks.
+
+Q: How much do your services cost?
+A: Pricing depends on project requirements, features, and complexity. Clients are encouraged to contact Ingenious Techworks for a customized quote.
+
+Q: Do you offer fixed pricing or flexible pricing?
+A: Pricing models may include fixed-price or milestone-based payments depending on the project agreement.
+
+Q: Do you provide post-delivery support?
+A: Yes. Limited post-delivery support is provided. Extended maintenance and support services may be offered based on agreement.
+
+Q: Can I request changes after project completion?
+A: Minor revisions may be accommodated. Major changes may require a new scope or additional cost.
+
+Q: How can I contact Ingenious Techworks?
+A: Clients can contact Ingenious Techworks through the official website contact form, email, or provided communication channels.
+
+Q: How soon can I expect a response?
+A: Responses are typically provided within a reasonable business timeframe.
+
+Q: Do you work with international clients?
+A: Project collaboration depends on communication feasibility and project scope.
+
+Q: Is there a refund policy?
+A: Refund terms depend on the project agreement and development stage.
+
+Q: What is Ingenious Techworks?
+A: Ingenious Techworks is a tech-focused studio that provides modern web and software solutions, helping individuals and businesses turn their ideas into reliable, production-ready products.​
+
+Q: Who is behind Ingenious Techworks?
+A: Ingenious Techworks is run by a small team of computer science and engineering enthusiasts who specialize in web development, app development, and custom software projects.
+​
+Q: What services do you offer?
+A: The studio typically offers full‑stack web development, custom software development, UI/UX design, and ongoing maintenance or feature upgrades for existing projects.
+​
+Q: Do you work with startups and small businesses?
+A: Yes, the focus is on helping startups, students, and small to mid‑size businesses get from idea to working product with a tech stack that fits their requirements and budget.
+
+Q: Can you customize or improve an existing website or app?
+A: Yes, services usually include redesigning interfaces, optimizing performance, fixing bugs, and adding new features to existing applications.
+​
+Q: What kind of projects have you worked on?
+A: Typical projects include portals for universities or departments, business management tools like invoice or inventory systems, and modern web apps for different domains.
+​
+Q: How does the development process work?
+A: After an initial requirements discussion, the team proposes a tech stack and timeline, then develops the project in milestones with regular feedback and revisions.
+​
+Q: Which technologies do you use?
+A: Most projects are built using modern web technologies such as HTML, CSS, JavaScript or TypeScript, popular frameworks (like React/Next.js), and secure backend stacks with databases like MySQL or similar.
+​
+Q: How is pricing decided?
+A: Pricing is usually based on project scope, complexity, and timeline, with a clear estimate shared after understanding the detailed requirements.
+​
+Q: Do you provide ongoing support after launch?
+A: Yes, support and maintenance packages can include bug fixes, performance monitoring, security updates, and small feature enhancements.
+​
+Q: How can I get in touch for a project?
+A: You can typically reach out through the contact section on the website, sharing a brief description of your idea or requirements so the team can respond with next steps.
+​
+Q: Do you take student or academic projects?
+A: Yes, the team often collaborates on academic or portfolio projects, especially in computer science and related fields, helping with planning, development, and deployment.
+
+--------------------------------------------------
+IMPORTANT NOTE
+--------------------------------------------------
+
+This chatbot provides information based on officially available service details.
+For exact pricing, timelines, or custom requirements, please contact Ingenious Techworks directly.
+
