@@ -11,3 +11,9 @@
   transform: translate(-50%, -50%);
   background: rgba(99, 102, 241, 0.1);
 }
+
+@media (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
+}
