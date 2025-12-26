@@ -12,7 +12,8 @@
   background: rgba(99, 102, 241, 0.1);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024
+px) {
   .cursor {
     display: none;
   }
